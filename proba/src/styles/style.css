@@ -110,17 +110,17 @@ a{
 }
 
 .section .content-list {
-  margin-top: 40px;
+  margin-top: 30px;
   margin-bottom: 40px;
 }
 .section .content-list h2 {
   text-align: center;
   font-size: 35px;
   font-weight: 700;
-  margin-top: 15px;
+  margin: 15px 0;
 }
 .section .content-list p {
-  font-size: 25px;
+  font-size: 19px;
 }
 .section .content-list__item {
   margin: 150px 0;
