@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;1,200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;1,200&family=Ubuntu:ital@0;1&display=swap");
+::-webkit-scrollbar {
+  background: transparent;
+  width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(6, 6, 112);
+  border-radius: 10px;
+}
+
+/* html,
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(91, 119, 172);
+  color: white;
+} */
+html .container,
+body .container {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 1200px;
+}
+html .none,
+body .none {
+  display: none !important;
+}
+
+.App, #root{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(91, 119, 172);
+  color: white;
+}
+
+a{
+  color: white;
+}
+
+.nav {
+  padding: 20px 0;
+  background-color: rgb(6, 6, 112);
+  color: whitesmoke;
+  letter-spacing: normal;
+}
+.nav .nav-row {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  row-gap: 20px;
+  flex-wrap: wrap;
+}
+.nav .logo {
+  margin-right: auto;
+  font-size: 24px;
+  font-family: "Ubuntu", sans-serif;
+}
+.nav .logo strong {
+  font-weight: 700;
+}
+.nav .nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  align-items: center;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  font-size: 17px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+.nav .nav-list__item a {
+  text-decoration: none;
+  color: white;
+}
+
+.header {
+  padding: 40px 0;
+  min-height: 695px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../img/logo1.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center center;
+  position: relative;
+}
+.header .header__title {
+  font-size: 136px;
+  font-weight: 700;
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+}
+.header .header__text {
+  font-size: 36px;
+  color: white;
+  font-weight: 700;
+  font-family: "Ubuntu", sans-serif;
+  letter-spacing: 5px;
+}
+
+.section .content-list {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.section .content-list h2 {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  margin-top: 15px;
+}
+.section .content-list p {
+  font-size: 25px;
+}
+.section .content-list__item {
+  margin: 150px 0;
+}
+
+#cairo {
+  margin: 30px 0;
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  margin: 35px 0;
+}
+.information .info-text {
+  font-size: 18px;
+}
+.information .trips__image {
+  margin: 35px 0;
+}
+
+.footer {
+  margin-top: auto;
+  font-family: "Poppins", sans-serif;
+  padding: 60px 0 50px;
+  background-color: rgb(6, 6, 112);
+}
+.footer .footer__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+}
+.footer .social {
+  display: flex;
+  flex-direction: row;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  align-items: center;
+}
+
+.title-1 {
+  text-align: center;
+  margin: 65px 0 0;
+  font-size: 70px;
+  font-weight: 700;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.contact-list {
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+}
+.contact-list .contact-list__item-1 {
+  margin: 35px 0;
+}
+.contact-list .contact-list__item-1 h2 {
+  font-size: 50px;
+}
+.contact-list .contact-list__item-1 p {
+  font-size: 35px;
+  color: rgb(255, 0, 85);
+}
+.contact-list .contact-list__item-2 {
+  margin: 35px 0;
+}
+.contact-list .contact-list__item-2 h2 {
+  font-size: 50px;
+}
+.contact-list .contact-list__item-2 p {
+  font-size: 35px;
+}
+.contact-list .contact-list__item-2 a{
+  color: rgb(255, 0, 85);
+}
+.contact-list .contact-list__item-3 {
+  margin: 35px 0;
+}
+.contact-list .contact-list__item-3 h2 {
+  font-size: 50px;
+}
+.contact-list .contact-list__item-3 p {
+  font-size: 35px;
+}
+.contact-list .contact-list__item-3 a {
+  color: rgb(255, 0, 85);
+}
+
+@media (max-width: 620px) {
+  /* Header  */
+  .header {
+    display: none;
+  }
+  .nav-list {
+    margin: auto;
+  }
+  .logo {
+    margin: auto;
+  }
+  .content-list {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .title-1 {
+    font-size: 40px;
+  }
+  .contact-list .contact-list__item-1 h2 {
+    font-size: 25px;
+  }
+  .contact-list .contact-list__item-1 p {
+    font-size: 25px;
+  }
+  .contact-list .contact-list__item-2 h2 {
+    font-size: 25px;
+  }
+  .contact-list .contact-list__item-2 p {
+    font-size: 25px;
+  }
+  .contact-list .contact-list__item-3 h2 {
+    font-size: 25px;
+  }
+  .contact-list .contact-list__item-3 p {
+    font-size: 25px;
+  }
+}/*# sourceMappingURL=style.css.map */
