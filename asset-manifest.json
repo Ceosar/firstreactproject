@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/firstreactproject/static/css/main.397b6757.css",
+    "main.css": "/firstreactproject/static/css/main.a7ecc7ba.css",
     "main.js": "/firstreactproject/static/js/main.70fd49a1.js",
     "static/media/logo1.jpg": "/firstreactproject/static/media/logo1.fcc97d316685ea79020d.jpg",
     "static/media/cairo3.jpg": "/firstreactproject/static/media/cairo3.3af12687a2ccee839044.jpg",
     "index.html": "/firstreactproject/index.html",
-    "main.397b6757.css.map": "/firstreactproject/static/css/main.397b6757.css.map",
+    "main.a7ecc7ba.css.map": "/firstreactproject/static/css/main.a7ecc7ba.css.map",
     "main.70fd49a1.js.map": "/firstreactproject/static/js/main.70fd49a1.js.map"
   },
   "entrypoints": [
-    "static/css/main.397b6757.css",
+    "static/css/main.a7ecc7ba.css",
     "static/js/main.70fd49a1.js"
   ]
 }
