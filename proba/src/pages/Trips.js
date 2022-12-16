@@ -1,9 +1,26 @@
+import { motion } from "framer-motion";
+
 import cairo from "../img/cairo3.jpg"
+
+const textAnimationUp = {
+    hidden:{
+        y: 300,
+        opacity: 0,
+    },
+    visible: {
+        y: 0,
+        opacity: 1,
+    },
+}
 
 const Trips = () => {
     return (
-        <main className="section">
-            <div className="container">
+        <motion.main
+            initial="hidden"
+            whileInView="visible"
+            className="section"
+        >
+            <motion.div variants={textAnimationUp} className="container">
                 <h2 id="cairo" >Cairo</h2>
                 <div className="information">
                     <div className="info-text">
@@ -23,8 +40,8 @@ const Trips = () => {
                     </div>
                     <img className="trips__image" src={cairo} alt=""/>
                 </div>
-            </div>
-        </main>
+            </motion.div>
+        </motion.main>
      );
 }
 
