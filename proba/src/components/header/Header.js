@@ -18,6 +18,7 @@ const Header = () => {
             initial="hidden"
             whileInView="visible"
             className="header"
+            viewport={{amount: 0.4, once: true}}
         >
             <div className="container">
                 <div className="header__wrapper">
